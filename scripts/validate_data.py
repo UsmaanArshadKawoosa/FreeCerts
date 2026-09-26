@@ -50,7 +50,6 @@ VALID_CATEGORIES = [
     "Mathematics & Statistics",
     "Academic & University Courses",
     "Career Development",
-    "Engineering",
 ]
 
 VALID_CREDENTIAL_TYPES = [

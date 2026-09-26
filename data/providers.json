@@ -118,48 +118,6 @@
       "url": "https://about.google",
       "description": "Google free certifications and courses including Google Analytics and Google Skills.",
       "verified": true
-    },
-    {
-      "id": "mathworks",
-      "name": "MathWorks",
-      "url": "https://www.mathworks.com",
-      "description": "Free self-paced MATLAB and Simulink onramp courses with completion certificates.",
-      "verified": true
-    },
-    {
-      "id": "anthropic",
-      "name": "Anthropic",
-      "url": "https://www.anthropic.com",
-      "description": "Free courses and learning resources through Claude Academy, including AI fluency, Claude Code, API development, and Model Context Protocol.",
-      "verified": true
-    },
-    {
-      "id": "eccouncil",
-      "name": "EC-Council",
-      "url": "https://www.eccouncil.org",
-      "description": "Free cybersecurity courses for beginners through the EC-Council Cybersecurity Exchange.",
-      "verified": true
-    },
-    {
-      "id": "scholarhat",
-      "name": "ScholarHat",
-      "url": "https://www.scholarhat.com",
-      "description": "Free online courses covering software development, AI, cloud computing, databases, and DevOps.",
-      "verified": true
-    },
-    {
-      "id": "hp-life",
-      "name": "HP LIFE",
-      "url": "https://www.life-global.org",
-      "description": "Free online courses in business, AI, digital skills, finance, marketing, and professional development with free certificates of completion.",
-      "verified": true
-    },
-    {
-      "id": "forage",
-      "name": "Forage",
-      "url": "https://www.theforage.com",
-      "description": "Free virtual job simulations created with employers, offering practical experience and completion certificates for eligible programs.",
-      "verified": true
     }
   ]
 }
