@@ -1,0 +1,62 @@
+name: Report Outdated Entry
+description: Report an outdated or incorrect certification entry
+title: "[Outdated Entry] "
+labels: ["outdated-entry", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Report an Outdated Entry
+
+        Use this form to report a certification that is no longer free, has changed requirements, or contains incorrect information.
+  - type: input
+    id: certification-id
+    attributes:
+      label: Certification ID
+      description: The ID of the certification (e.g., freecodecamp-responsive-web-design)
+      placeholder: "provider-certification-slug"
+    validations:
+      required: true
+  - type: input
+    id: certification-name
+    attributes:
+      label: Certification Name
+      description: Full name of the certification
+      placeholder: "e.g., Responsive Web Design Certification"
+    validations:
+      required: true
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Type
+      description: What is wrong with this entry?
+      options:
+        - Certification is no longer free
+        - Certificate/credential is now paid
+        - URL is broken or changed
+        - Requirements have changed
+        - Certification is deprecated or discontinued
+        - Information is incorrect
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Describe the issue in detail. What has changed? Provide evidence or links.
+      placeholder: "Describe what changed and provide evidence..."
+    validations:
+      required: true
+  - type: input
+    id: new-url
+    attributes:
+      label: Updated URL (if applicable)
+      description: New certification URL if the old one is broken
+      placeholder: "https://..."
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any other relevant details
+      placeholder: "e.g., The certification now requires a paid subscription..."

@@ -1,0 +1,136 @@
+name: Add Certification
+description: Submit a new free certification for review
+title: "[Add Certification] "
+labels: ["add-certification", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Add a New Certification
+
+        Use this form to propose a new certification for inclusion in FreeCerts.
+
+        **Before submitting, please ensure:**
+        - The learning material is completely free.
+        - The certificate/credential is free.
+        - No credit card or paid subscription is required.
+        - The provider is reputable.
+  - type: input
+    id: certification-name
+    attributes:
+      label: Certification Name
+      description: Full name of the certification
+      placeholder: "e.g., AWS Cloud Practitioner Essentials"
+    validations:
+      required: true
+  - type: input
+    id: provider
+    attributes:
+      label: Provider
+      description: Name of the organization offering the certification
+      placeholder: "e.g., AWS Training"
+    validations:
+      required: true
+  - type: input
+    id: certification-url
+    attributes:
+      label: Certification URL
+      description: Direct link to the official certification page
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: input
+    id: provider-url
+    attributes:
+      label: Provider URL
+      description: Link to the provider's official website
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Primary category for this certification
+      options:
+        - Artificial Intelligence & Machine Learning
+        - Data Science & Analytics
+        - Software Development
+        - Web Development
+        - Cybersecurity
+        - Cloud Computing
+        - DevOps & Infrastructure
+        - Networking
+        - Databases
+        - IT Support
+        - Blockchain & Web3
+        - UI/UX & Design
+        - Business & Management
+        - Digital Marketing
+        - Finance & Accounting
+        - Project Management
+        - Mathematics & Statistics
+        - Academic & University Courses
+        - Career Development
+    validations:
+      required: true
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty Level
+      description: Estimated difficulty for beginners
+      options:
+        - beginner
+        - intermediate
+        - advanced
+    validations:
+      required: true
+  - type: dropdown
+    id: credential-type
+    attributes:
+      label: Credential Type
+      description: Type of credential awarded
+      options:
+        - free_certificate
+        - free_professional_certification
+        - free_course_certificate
+    validations:
+      required: true
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verification Checklist
+      description: Confirm you have verified the following
+      options:
+        - label: Learning material is completely free
+          required: true
+        - label: Certificate/credential is free
+          required: true
+        - label: No credit card required
+          required: true
+        - label: No paid subscription required
+          required: true
+        - label: Official source verified
+          required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Provide screenshots, notes, or other evidence that the certification is free
+      placeholder: "Paste links to screenshots or describe what you verified..."
+    validations:
+      required: true
+  - type: input
+    id: verification-date
+    attributes:
+      label: Verification Date
+      description: Date you verified this information (YYYY-MM-DD)
+      placeholder: "2025-09-26"
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Any restrictions, prerequisites, or important notes
+      placeholder: "e.g., Available only in the US, requires proctored exam..."

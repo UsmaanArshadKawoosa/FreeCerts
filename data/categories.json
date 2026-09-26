@@ -1,0 +1,99 @@
+{
+  "categories": [
+    {
+      "id": "ai-ml",
+      "name": "Artificial Intelligence & Machine Learning",
+      "description": "Certifications covering AI, machine learning, deep learning, neural networks, and related technologies."
+    },
+    {
+      "id": "data-science",
+      "name": "Data Science & Analytics",
+      "description": "Certifications in data analysis, statistics, visualization, and data-driven decision making."
+    },
+    {
+      "id": "software-dev",
+      "name": "Software Development",
+      "description": "Programming, software engineering, and computer science fundamentals certifications."
+    },
+    {
+      "id": "web-dev",
+      "name": "Web Development",
+      "description": "Frontend, backend, full-stack web development, and web technologies."
+    },
+    {
+      "id": "cybersecurity",
+      "name": "Cybersecurity",
+      "description": "Information security, ethical hacking, security operations, and cyber defense."
+    },
+    {
+      "id": "cloud",
+      "name": "Cloud Computing",
+      "description": "Cloud platforms, cloud architecture, and cloud services certifications."
+    },
+    {
+      "id": "devops",
+      "name": "DevOps & Infrastructure",
+      "description": "CI/CD, infrastructure as code, containerization, and DevOps practices."
+    },
+    {
+      "id": "networking",
+      "name": "Networking",
+      "description": "Network fundamentals, routing, switching, and network security."
+    },
+    {
+      "id": "databases",
+      "name": "Databases",
+      "description": "SQL, NoSQL, database administration, and data modeling."
+    },
+    {
+      "id": "it-support",
+      "name": "IT Support",
+      "description": "Technical support, system administration, and IT operations."
+    },
+    {
+      "id": "blockchain",
+      "name": "Blockchain & Web3",
+      "description": "Blockchain development, smart contracts, and decentralized applications."
+    },
+    {
+      "id": "ui-ux",
+      "name": "UI/UX & Design",
+      "description": "User interface design, user experience, and product design."
+    },
+    {
+      "id": "business",
+      "name": "Business & Management",
+      "description": "Business fundamentals, management, leadership, and entrepreneurship."
+    },
+    {
+      "id": "digital-marketing",
+      "name": "Digital Marketing",
+      "description": "SEO, social media marketing, content marketing, and digital strategy."
+    },
+    {
+      "id": "finance",
+      "name": "Finance & Accounting",
+      "description": "Financial literacy, accounting, and fintech fundamentals."
+    },
+    {
+      "id": "project-management",
+      "name": "Project Management",
+      "description": "Project management methodologies, tools, and best practices."
+    },
+    {
+      "id": "math-stats",
+      "name": "Mathematics & Statistics",
+      "description": "Mathematics, statistics, and quantitative analysis."
+    },
+    {
+      "id": "academic",
+      "name": "Academic & University Courses",
+      "description": "University-level courses with free certificates from academic institutions."
+    },
+    {
+      "id": "career-dev",
+      "name": "Career Development",
+      "description": "Professional skills, resume building, interview preparation, and career planning."
+    }
+  ]
+}

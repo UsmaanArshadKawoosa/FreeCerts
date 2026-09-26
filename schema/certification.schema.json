@@ -1,0 +1,160 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FreeCerts Certification Entry",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "provider",
+    "provider_url",
+    "certification_url",
+    "category",
+    "credential_type",
+    "difficulty",
+    "learning_cost",
+    "certificate_cost",
+    "account_required",
+    "verification_status",
+    "last_verified"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique slug: provider-certification-name"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 200
+    },
+    "provider": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 100
+    },
+    "provider_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "certification_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "Artificial Intelligence & Machine Learning",
+        "Data Science & Analytics",
+        "Software Development",
+        "Web Development",
+        "Cybersecurity",
+        "Cloud Computing",
+        "DevOps & Infrastructure",
+        "Networking",
+        "Databases",
+        "IT Support",
+        "Blockchain & Web3",
+        "UI/UX & Design",
+        "Business & Management",
+        "Digital Marketing",
+        "Finance & Accounting",
+        "Project Management",
+        "Mathematics & Statistics",
+        "Academic & University Courses",
+        "Career Development"
+      ]
+    },
+    "subcategory": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "credential_type": {
+      "type": "string",
+      "enum": [
+        "free_certificate",
+        "free_professional_certification",
+        "free_course_certificate",
+        "free_training_paid_exam",
+        "financial_aid_or_scholarship",
+        "free_trial_only"
+      ]
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["beginner", "intermediate", "advanced"]
+    },
+    "estimated_hours": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 2000
+    },
+    "learning_cost": {
+      "type": "string",
+      "enum": ["free", "paid", "freemium"]
+    },
+    "certificate_cost": {
+      "type": "string",
+      "enum": ["free", "paid", "freemium"]
+    },
+    "exam_cost": {
+      "type": "string",
+      "enum": ["free", "paid", "none", "freemium"]
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "skills": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "delivery": {
+      "type": "string",
+      "enum": ["online", "in-person", "hybrid"],
+      "default": "online"
+    },
+    "assessment": {
+      "type": "string",
+      "enum": ["exam", "project", "quiz", "none", "peer_review"],
+      "default": "none"
+    },
+    "certificate_format": {
+      "type": "string",
+      "enum": ["digital", "print", "both"],
+      "default": "digital"
+    },
+    "account_required": {
+      "type": "boolean"
+    },
+    "credit_card_required": {
+      "type": "boolean"
+    },
+    "subscription_required": {
+      "type": "boolean"
+    },
+    "availability": {
+      "type": "string",
+      "enum": ["global", "regional", "country_specific"],
+      "default": "global"
+    },
+    "expiration": {
+      "type": "string",
+      "enum": ["none", "review_required", "exam_retake"],
+      "default": "none"
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": ["verified", "unverified", "needs_review"],
+      "default": "unverified"
+    },
+    "last_verified": {
+      "type": "string",
+      "format": "date"
+    },
+    "notes": {
+      "type": "string",
+      "maxLength": 1000
+    }
+  }
+}
