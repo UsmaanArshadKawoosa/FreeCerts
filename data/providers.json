@@ -1,27 +1,6 @@
 {
   "providers": [
     {
-      "id": "freecodecamp",
-      "name": "freeCodeCamp",
-      "url": "https://www.freecodecamp.org",
-      "description": "Nonprofit community that helps millions of people learn to code for free through thousands of free courses and certifications.",
-      "verified": true
-    },
-    {
-      "id": "harvard-cs50",
-      "name": "Harvard University (CS50)",
-      "url": "https://cs50.harvard.edu",
-      "description": "Harvard University's free online computer science courses with free certificates available through edX.",
-      "verified": true
-    },
-    {
-      "id": "kaggle",
-      "name": "Kaggle Learn",
-      "url": "https://www.kaggle.com/learn",
-      "description": "Free micro-courses in data science and machine learning with completion certificates.",
-      "verified": true
-    },
-    {
       "id": "cisco-netacad",
       "name": "Cisco Networking Academy",
       "url": "https://www.netacad.com",
@@ -36,87 +15,45 @@
       "verified": true
     },
     {
-      "id": "microsoft-learn",
-      "name": "Microsoft Learn",
-      "url": "https://learn.microsoft.com",
-      "description": "Free hands-on training with digital badges and certifications from Microsoft.",
+      "id": "mathworks",
+      "name": "MathWorks",
+      "url": "https://www.mathworks.com",
+      "description": "Free self-paced MATLAB and Simulink onramp courses with completion certificates.",
       "verified": true
     },
     {
-      "id": "google-cloud",
-      "name": "Google Cloud Skills Boost",
-      "url": "https://www.cloud.google.com/learn/training",
-      "description": "Free skill badges and certificates from Google Cloud.",
+      "id": "anthropic",
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com",
+      "description": "Free courses and learning resources through Claude Academy, including AI fluency, Claude Code, API development, and Model Context Protocol.",
       "verified": true
     },
     {
-      "id": "hubspot-academy",
-      "name": "HubSpot Academy",
-      "url": "https://academy.hubspot.com",
-      "description": "Free professional certifications in marketing, sales, and business.",
+      "id": "eccouncil",
+      "name": "EC-Council",
+      "url": "https://www.eccouncil.org",
+      "description": "Free cybersecurity courses for beginners through the EC-Council Cybersecurity Exchange.",
       "verified": true
     },
     {
-      "id": "salesforce-trailhead",
-      "name": "Salesforce Trailhead",
-      "url": "https://trailhead.salesforce.com",
-      "description": "Free learning platform with badges, trails, and certification preparation.",
+      "id": "scholarhat",
+      "name": "ScholarHat",
+      "url": "https://www.scholarhat.com",
+      "description": "Free online courses covering software development, AI, cloud computing, databases, and DevOps.",
       "verified": true
     },
     {
-      "id": "oracle-university",
-      "name": "Oracle University",
-      "url": "https://www.oracle.com/education/",
-      "description": "Free Oracle Cloud Infrastructure and AI foundations training and certifications.",
+      "id": "hp-life",
+      "name": "HP LIFE",
+      "url": "https://www.life-global.org",
+      "description": "Free online courses in business, AI, digital skills, finance, marketing, and professional development with free certificates of completion.",
       "verified": true
     },
     {
-      "id": "mongodb-university",
-      "name": "MongoDB University",
-      "url": "https://learn.mongodb.com",
-      "description": "Free MongoDB courses and skill badges.",
-      "verified": true
-    },
-    {
-      "id": "fortinet-training",
-      "name": "Fortinet Training Institute",
-      "url": "https://www.fortinet.com/training",
-      "description": "Free cybersecurity training courses and certifications.",
-      "verified": true
-    },
-    {
-      "id": "nvidia-dli",
-      "name": "NVIDIA Deep Learning Institute",
-      "url": "https://www.nvidia.com/en-us/deep-learning-ai/",
-      "description": "Free deep learning and AI courses with certificates.",
-      "verified": true
-    },
-    {
-      "id": "red-hat-training",
-      "name": "Red Hat Training",
-      "url": "https://www.redhat.com/en/services/training",
-      "description": "Free introductory courses and resources for Red Hat technologies.",
-      "verified": true
-    },
-    {
-      "id": "aws",
-      "name": "AWS Training",
-      "url": "https://aws.amazon.com/training/",
-      "description": "Free digital training and badges from Amazon Web Services.",
-      "verified": true
-    },
-    {
-      "id": "harvard-university",
-      "name": "Harvard University",
-      "url": "https://www.harvard.edu",
-      "description": "Harvard University free online courses and certificates through CS50 and edX.",
-      "verified": true
-    },
-    {
-      "id": "google",
-      "name": "Google",
-      "url": "https://about.google",
-      "description": "Google free certifications and courses including Google Analytics and Google Skills.",
+      "id": "forage",
+      "name": "Forage",
+      "url": "https://www.theforage.com",
+      "description": "Free virtual job simulations created with employers, offering practical experience and completion certificates for eligible programs.",
       "verified": true
     }
   ]

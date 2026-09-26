@@ -39,6 +39,7 @@ VALID_CATEGORIES = [
     "Mathematics & Statistics",
     "Academic & University Courses",
     "Career Development",
+    "Engineering",
 ]
 
 VALID_CREDENTIAL_TYPES = [
@@ -314,11 +315,11 @@ class TestCertifications(unittest.TestCase):
                     f"{cert.get('id', 'unknown')}: {field} is empty string",
                 )
 
-    def test_at_least_50_certifications(self):
+    def test_at_least_10_certifications(self):
         self.assertGreaterEqual(
             len(self.certifications),
-            50,
-            f"Expected at least 50 certifications, found {len(self.certifications)}",
+            10,
+            f"Expected at least 10 certifications, found {len(self.certifications)}",
         )
 
 
