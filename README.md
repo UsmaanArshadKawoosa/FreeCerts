@@ -1,8 +1,8 @@
 # FreeCerts
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Verified Entries](https://img.shields.io/badge/verified-40-green.svg)
-![Categories](https://img.shields.io/badge/categories-19-orange.svg)
+![Verified Entries](https://img.shields.io/badge/verified-50-green.svg)
+![Categories](https://img.shields.io/badge/categories-20-orange.svg)
 
 A community-maintained, curated directory of genuinely free certifications, professional certificates, and certificate-awarding courses from reputable organizations, universities, technology companies, and educational platforms.
 
@@ -44,6 +44,7 @@ To browse:
 - [Digital Marketing](#digital-marketing)
 - [Project Management](#project-management)
 - [Academic & University Courses](#academic--university-courses)
+- [Engineering](#engineering)
 
 ## Certification Table
 
@@ -74,6 +75,10 @@ To browse:
 | [Introduction to Data Science](https://www.netacad.com/courses/introduction-to-data-science) | Cisco Networking Academy | Data Science & Analytics | Beginner | `free_course_certificate` | Free | [Link](https://www.netacad.com/courses/introduction-to-data-science) |
 | [CCNA: Introduction to Networks](https://www.netacad.com/courses/introduction-to-networking) | Cisco Networking Academy | Networking | Beginner | `free_course_certificate` | Free | [Link](https://www.netacad.com/courses/introduction-to-networking) |
 | [Cybersecurity Basics](https://www.netacad.com/courses/cybersecurity-basics) | Cisco Networking Academy | Cybersecurity | Beginner | `free_course_certificate` | Free | [Link](https://www.netacad.com/courses/cybersecurity-basics) |
+| [Cisco Networking Academy — Free Course Catalogue](https://www.netacad.com/catalogs/learn?category=course) | Cisco | Networking | Beginner | `free_course_certificate` | Free | [Link](https://www.netacad.com/catalogs/learn?category=course) |
+| [EC-Council — Free Cybersecurity Courses for Beginners](https://www.eccouncil.org/cybersecurity-exchange/cyber-novice/free-cybersecurity-courses-beginners/) | EC-Council | Cybersecurity | Beginner | `free_course_certificate` | Free | [Link](https://www.eccouncil.org/cybersecurity-exchange/cyber-novice/free-cybersecurity-courses-beginners/) |
+| [ScholarHat — Free Courses](https://www.scholarhat.com/free-course) | ScholarHat | Software Development | Beginner | `free_course_certificate` | Free | [Link](https://www.scholarhat.com/free-course) |
+| [IBM SkillsBuild — Free Learning and Digital Credentials](https://skillsbuild.org/) | IBM SkillsBuild | Artificial Intelligence & Machine Learning | Beginner | `free_course_certificate` | Free | [Link](https://skillsbuild.org/) |
 | [Inbound Certification](https://academy.hubspot.com/courses/inbound) | HubSpot Academy | Digital Marketing | Beginner | `free_professional_certification` | Free | [Link](https://academy.hubspot.com/courses/inbound) |
 | [Content Marketing Certification](https://academy.hubspot.com/courses/content-marketing) | HubSpot Academy | Digital Marketing | Intermediate | `free_professional_certification` | Free | [Link](https://academy.hubspot.com/courses/content-marketing) |
 | [Email Marketing Certification](https://academy.hubspot.com/courses/email-marketing) | HubSpot Academy | Digital Marketing | Intermediate | `free_professional_certification` | Free | [Link](https://academy.hubspot.com/courses/email-marketing) |
@@ -114,6 +119,12 @@ To browse:
 | [AWS Developer Fundamentals](https://aws.amazon.com/training/digital/) | AWS Training | Software Development | Intermediate | `free_course_certificate` | Free | [Link](https://aws.amazon.com/training/digital/) |
 | [AWS Data Analytics Fundamentals](https://aws.amazon.com/training/digital/) | AWS Training | Data Science & Analytics | Beginner | `free_course_certificate` | Free | [Link](https://aws.amazon.com/training/digital/) |
 | [Introduction to Linux](https://www.redhat.com/en/services/training/rh124-red-hat-system-administration-i) | Red Hat Training | Software Development | Beginner | `free_course_certificate` | Free | [Link](https://www.redhat.com/en/services/training/rh124-red-hat-system-administration-i) |
+| [MATLAB Onramp](https://matlabacademy.mathworks.com/en/details/matlab-onramp/gettingstarted) | MathWorks | Software Development | Beginner | `free_course_certificate` | Free | [Link](https://matlabacademy.mathworks.com/en/details/matlab-onramp/gettingstarted) |
+| [Simulink Onramp](https://matlabacademy.mathworks.com/details/simulink-onramp/simulink) | MathWorks | Engineering | Beginner | `free_course_certificate` | Free | [Link](https://matlabacademy.mathworks.com/details/simulink-onramp/simulink) |
+| [Simscape Battery Onramp](https://matlabacademy.mathworks.com/details/simscape-battery-onramp/orsb) | MathWorks | Engineering | Intermediate | `free_course_certificate` | Free | [Link](https://matlabacademy.mathworks.com/details/simscape-battery-onramp/orsb) |
+| [Claude Academy](https://academy.claude.com/courses) | Anthropic | Artificial Intelligence & Machine Learning | Beginner | `free_course_certificate` | Free | [Link](https://academy.claude.com/courses) |
+| [HP LIFE — Free Courses](https://www.life-global.org/) | HP LIFE | Business & Management | Beginner | `free_course_certificate` | Free | [Link](https://www.life-global.org/) |
+| [Forage — Free Virtual Job Simulations](https://www.theforage.com/simulations) | Forage | Career Development | Beginner | `free_course_certificate` | Free | [Link](https://www.theforage.com/simulations) |
 
 ## Credential Types
 
@@ -211,4 +222,4 @@ The data in this repository is licensed under the [MIT License](LICENSE).
 
 ---
 
-**Last Dataset Verification**: 2025-09-26
+**Last Dataset Verification**: 2026-09-26
