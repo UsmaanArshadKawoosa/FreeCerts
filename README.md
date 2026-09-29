@@ -11,7 +11,6 @@ A community-maintained, curated directory of genuinely free certifications, prof
 ## Table of Contents
 
 - [Quick Start](#quick-start)
-- [Browse by Category](#browse-by-category)
 - [Certification Table](#certification-table)
 - [Credential Types](#credential-types)
 - [Data Verification](#data-verification)
