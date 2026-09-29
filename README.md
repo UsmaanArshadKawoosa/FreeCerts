@@ -28,15 +28,7 @@ To browse:
 2. Use your browser's search (Ctrl+F / Cmd+F) to filter by provider, category, or keyword.
 3. Check the "Credential Type" column to understand what kind of credential each entry offers.
 
-## Browse by Category
 
-- [Artificial Intelligence & Machine Learning](#artificial-intelligence-machine-learning)
-- [Business & Management](#business-management)
-- [Career Development](#career-development)
-- [Cybersecurity](#cybersecurity)
-- [Engineering](#engineering)
-- [Networking](#networking)
-- [Software Development](#software-development)
 
 ## Certification Table
 
