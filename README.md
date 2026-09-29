@@ -15,7 +15,7 @@ A community-maintained, curated directory of genuinely free certifications, prof
 - [Credential Types](#credential-types)
 - [Data Verification](#data-verification)
 - [Contributing](#contributing)
-- [Repository Structure](#repository-structure)
+
 
 ## Quick Start
 
@@ -94,38 +94,7 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for deta
 - **Add a certification**: Use the [Add Certification](.github/ISSUE_TEMPLATE/add-certification.yml) issue form.
 - **Report outdated information**: Use the [Report Outdated Entry](.github/ISSUE_TEMPLATE/report-outdated-entry.yml) issue form.
 
-## Repository Structure
 
-```
-FreeCerts/
-├── README.md                      # This file
-├── CONTRIBUTING.md                # Contribution guidelines
-├── CODE_OF_CONDUCT.md             # Community standards
-├── LICENSE                        # MIT License
-├── SECURITY.md                    # Security policy
-├── .github/
-│   ├── ISSUE_TEMPLATE/
-│   │   ├── add-certification.yml
-│   │   └── report-outdated-entry.yml
-│   ├── PULL_REQUEST_TEMPLATE.md
-│   └── workflows/
-│       └── validate-data.yml
-├── data/
-│   ├── certifications.json        # Main dataset
-│   ├── providers.json             # Provider information
-│   └── categories.json            # Category taxonomy
-├── schema/
-│   └── certification.schema.json  # JSON Schema validation
-├── scripts/
-│   ├── validate_data.py           # Data validation script
-│   └── check_links.py             # Link checker (optional)
-├── docs/
-│   ├── verification-policy.md     # Verification methodology
-│   ├── certification-types.md     # Credential type definitions
-│   └── maintenance.md             # Maintenance and review policy
-└── tests/
-    └── test_data.py               # Automated tests
-```
 
 ## Data License
 
